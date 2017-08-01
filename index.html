@@ -1,0 +1,20 @@
+<input type="radio" ng-model="subject" value="01_Oishi"> 01_Oishi
+<input type="radio" ng-model="subject" value="02_Roseboom"> 02_Roseboom
+<input type="radio" ng-model="subject" value="06_Onoue"> 06_Onoue
+<input type="radio" ng-model="subject" value="01_Minami"> 01_Minami
+<input type="radio" ng-model="subject" value="02_Minami"> 02_Minami
+<input type="radio" ng-model="subject" value="03_Matsuo"> 03_Matsuo
+<input type="radio" ng-model="subject" value="04_Matsuo"> 04_Matsuo
+<input type="radio" ng-model="subject" value="05_Murai"> 05_Murai
+<input type="radio" ng-model="subject" value="06_Murai"> 06_Murai
+<input type="radio" ng-model="subject" value="07_Roseboom"> 07_Roseboom
+
+<rzslider rz-slider-model="slider.value"></rzslider>
+
+<input type="radio" ng-model="side" value="Side"> Side
+<input type="radio" ng-model="side" value="Top"> Top
+<input type="radio" ng-model="side" value="Back"> Back
+<input type="radio" ng-model="side" value="Inside"> Inside
+
+<img ng-src="./Images/{{subject}}/Left/{{side}}_{{slider.value}}.bmp" alt="Description" />
+<img ng-src="./Images/{{subject}}/Right/{{side}}_{{slider.value}}.bmp" alt="Description" />
